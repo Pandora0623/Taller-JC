@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class Persona1{
@@ -41,6 +43,11 @@ public class Persona1{
         return this.FechaDeNacimiento;
     }
 
-    
+    public LocalDate calcularFechaDeNacimiento(){
+        if (this.Edad < 0){
+            System.out.println("Edad no valida");
+        }
+        return LocalDate.now().minusYears(this.Edad);
+    } 
     
 }
