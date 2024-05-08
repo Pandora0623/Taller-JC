@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.util.Date;
 
-public class Persona1 {
+ public class Persona1 {
     private String Nombre;
     private int Edad;
     private Date FechaDeNacimiento;
