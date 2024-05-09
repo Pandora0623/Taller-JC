@@ -1,6 +1,6 @@
 import java.util.Date;
 
-abstract public class Estudiante extends Persona1 implements Trabajador{
+ public class Estudiante extends Persona1 implements Trabajador{
     private String grado;
 
     public Estudiante(String Nombre, int Edad, Date FechaDeNacimiento, String grado) {
