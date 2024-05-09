@@ -18,5 +18,27 @@ public class FigurasGeometricas {
         return this.Color;
     }
 
+    public class Rectangulo extends FigurasGeometricas {
+        private double longitud;
+        private double ancho;
+    
+        public Rectangulo(double longitud, double ancho) {
+            this.longitud = longitud;
+            this.ancho = ancho;
+        }
+    
+        
+    }
+    
+    public class Circulo extends FigurasGeometricas {
+        private double radio;
+    
+        public Circulo(double radio) {
+            this.radio = radio;
+        }
+    
+       
+    }
+
     
 }
